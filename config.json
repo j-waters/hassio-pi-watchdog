@@ -1,0 +1,12 @@
+{
+  "name": "PiWatcher",
+  "version": "1",
+  "slug": "piwatcher",
+  "description": "Pi Watchdog",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "devices": [ "/dev/watchdog:/dev/watchdog:rw" ]
+}
